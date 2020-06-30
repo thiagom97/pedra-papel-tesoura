@@ -7,12 +7,17 @@
 
 <body>
     <script>
+        const computerSelection = computerPlay();
+        const playerSelection = prompt("Rock, Paper or Scissors?");
+
         function computerPlay() {
             const possiblePlays = ["rock", "paper", "scissors"];
             return possiblePlays[Math.floor(Math.random() * possiblePlays.length)];
         }
 
         function playRound(playerSelection, computerSelection) {
+
+
             if (playerSelection.toLowerCase() === computerSelection) {
                 return "It's a tie. Play again!";
             } else if (playerSelection.toLowerCase() === "rock" && computerSelection === "paper") {
@@ -27,9 +32,10 @@
                 return "You lose! Rock beats Scissors.";
             } else if (playerSelection.toLowerCase() === "scissors" && computerSelection === "paper") {
                 return "You win! Scissors beat Paper.";
-            } else "Enter a valid option!";
+            } else return "Enter a valid option!";
         }
- 
+
+        alert(playRound(playerSelection, computerSelection));
     </script>
 </body>
 
