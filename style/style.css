@@ -1,0 +1,87 @@
+    header {
+        text-align: center;
+        background-color: #f1f1f1;
+        padding: 25px;
+        font-family: "Goudy Bookletter 1911", sans-serif;
+    }
+
+    .buttons {
+        padding: 5em;
+        padding-bottom: 2em;
+        text-align: center;
+    }
+
+    #paper {
+        padding: 1em;
+        margin: 50px;
+        background-color: #8f8f8f;
+        border: none;
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        width: 120px;
+        border-radius: 3px;
+    }
+
+    #paper:hover {
+        background-color: #6b6b6b;
+    }
+
+    #rock {
+        padding: 1em;
+        margin: 50px;
+        background-color: #8f8f8f;
+        border: none;
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        width: 120px;
+        border-radius: 3px;
+    }
+
+    #rock:hover {
+        background-color: #6b6b6b;
+    }
+
+    #scissors {
+        padding: 1em;
+        margin: 50px;
+        background-color: #8f8f8f;
+        border: none;
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        width: 120px;
+        border-radius: 3px;
+    }
+
+    #scissors:hover {
+        background-color: #6b6b6b;
+    }
+
+    #result {
+        text-align: center;
+        padding: 2em;
+    }
+
+    #finalResult {
+        text-align: center;
+        padding: 2em;
+        padding-bottom: 0em;
+    }
+
+    .replay {
+        text-align: center;
+        padding: 2em;
+        padding-top: 0.5em;
+    }
+
+    #replay {
+        padding: 10px;
+        background-color: #8f8f8f;
+        border: none;
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        width: 100px;
+    }
