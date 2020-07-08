@@ -87,11 +87,19 @@ let pCount = 0;
                     firstToFive.textContent =
                         `You won!\nFinal score - Computer: ${cCount} You: ${pCount}`;
                     body.appendChild(replayDiv);
+                    document.getElementById("paper").disabled = true;
+                    document.getElementById("rock").disabled = true;
+                    document.getElementById("scissors").disabled = true;
+                    
                 }
                 if (cCount === 5) {
                     firstToFive.textContent =
                         `You lost!\nFinal score - Computer: ${cCount} You: ${pCount}`;
                     body.appendChild(replayDiv);
+                    document.getElementById("paper").disabled = true;
+                    document.getElementById("rock").disabled = true;
+                    document.getElementById("scissors").disabled = true;
+                    
                 }
             })
         })
